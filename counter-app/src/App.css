@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App Wrapper */
+.App {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+/* Heading */
+.App h1 {
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Count Display */
+.App p {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.App button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 20px 40px 0;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+.App button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+/* Reset Button Styling */
+.App button:nth-child(3) {
+  background-color: #f44336;
+}
+
+.App button:nth-child(3):hover {
+  background-color: #d32f2f;
+}
+
+/* Button Active State */
+.App button:active {
+  transform: scale(0.95);
+}
