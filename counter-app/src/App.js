@@ -20,7 +20,7 @@ function App() {
       <button onClick={() => dispatch({ type: 'RESET' })}><i class="fa-solid fa-rotate-right"></i></button>
 
       <footer className="footer">
-        © {new Date().getFullYear()} Muhamad Arhum.All rights reserved.
+        © {new Date().getFullYear()} Muhamad Arhum. All rights reserved.
       </footer>
     </div>
   );
